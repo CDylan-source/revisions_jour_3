@@ -1,0 +1,143 @@
+* {
+    padding: unset;
+    margin: unset;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 4vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+form{
+    display: none;
+}
+
+.actif {
+    display: flex;
+    max-width: 84vw;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    align-items: center;
+}
+
+input,
+select {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: snow;
+    color: #232323;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: lightgreen;
+    transition: ease-in 0.4s;
+    margin-bottom: 1.5rem;
+}
+
+button:hover {
+    background-color: #1c1c1c;
+    padding: 1.4rem;
+    color: snow;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+p {
+    color: lightgreen;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: palegreen;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    transition: ease-in-out .2s;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    max-width: 90vw;
+    transition: ease-in-out .2s;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.2rem;
+}
+
+p{
+    background-color: #1c1c1c;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    transition: ease-in-out .2s;
+}
+
+p:nth-of-type(2n){
+    background-color: #0c0c0c;
+}
+
+li input {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+h2, h3, h4, h5{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+form ul li{
+    column-gap: 0.5rem;
+}
+
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50vw;
+    border: 2px solid #f87f28;
+    background-color: #f87f28;
+}
+
+#genre, #signe{
+    background-color:crimson;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+h4{
+    padding-bottom: 1.5rem;
+}
